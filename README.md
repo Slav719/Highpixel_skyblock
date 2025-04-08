@@ -1,9 +1,8 @@
-# Highpixel_skyblock
-<!DOCTYPE html>
+<p>&lt;!DOCTYPE html&gt;</p>
 <html>
 <head>
   <title>SkyBlock Progress</title>
-  <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet" />
   <style>
     body {
       font-family: 'Minecraftia', sans-serif;
@@ -65,7 +64,7 @@
   <h1>Hypixel SkyBlock Progress</h1>
 
   <div class="player">
-    <h2 onclick="showImage1()
+    &lt;h2 onclick="showImage1()
     <h2>Dani</h2>
     <p>Combat: XIII</p>
     <p>Farming: XX</p>
@@ -86,17 +85,24 @@
   </div>
 
    <div id="imageView">
-    <img src="https://i.ibb.co/pFDXwbg/image.png" alt="Slav Image">
+    <img src="https://i.ibb.co/pFDXwbg/image.png" alt="Slav Image" />
     <div id="backArrow" onclick="hideImage()">← Back</div>
   </div>
-  
+
   <div id="imageView">
-    <img src="**https://i.ibb.co/7JymPsfd/0-02-05-2402c901b99e0524fb33b6ce1e6ac4446d61ababee14f9c1f113de1590cdb73e-b8786e183231f5d6.png**" alt="Dani Image">
+    <img src="**https://i.ibb.co/7JymPsfd/0-02-05-2402c901b99e0524fb33b6ce1e6ac4446d61ababee14f9c1f113de1590cdb73e-b8786e183231f5d6.png**" alt="Dani Image" />
     <div id="backArrow" onclick="hideImage()">← Back</div>
   </div>
-  
-  </script>
+
+  &lt;/script&gt;
 </body>
 </html>
 
 
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
