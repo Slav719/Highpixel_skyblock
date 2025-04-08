@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><title>🗿</title><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"><style>
+ href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"><style>
 body{font-family:'Press Start 2P',sans-serif;background:#000;color:#fff;margin:0;padding:20px;text-align:center}
 h1{color:lime;font-size:20px;margin-bottom:40px}
 .players{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
