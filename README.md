@@ -85,34 +85,18 @@
     <p>Minions: 6</p>
   </div>
 
+   <div id="imageView">
+    <img src="https://i.ibb.co/pFDXwbg/image.png" alt="Slav Image">
+    <div id="backArrow" onclick="hideImage()">← Back</div>
+  </div>
+  
   <div id="imageView">
-    <img src="" alt="Slav Image">
-    <div id="backArrow" onclick="hideImage1()">← Back</div>
+    <img src="**https://i.ibb.co/7JymPsfd/0-02-05-2402c901b99e0524fb33b6ce1e6ac4446d61ababee14f9c1f113de1590cdb73e-b8786e183231f5d6.png**" alt="Dani Image">
+    <div id="backArrow" onclick="hideImage()">← Back</div>
   </div>
-
-  <script>
-    
-	function showImage1("C:\Users\Acer\Documents\ViberDownloads\clipboard_image_25e107b4ca6b5ffc.jpg") {
-      document.getElementById('imageView').style.display = 'flex';
-    }
-
-    function hideImage1() {
-      document.getElementById('imageView').style.display = 'none';
-    }
-	 <div id="imageView">
-    <img src="" alt="Slav Image">
-    <div id="backArrow" onclick="hideImage1()">← Back</div>
-  </div>
-
-  <script>
-    
-	function showImage2("C:\Users\Acer\Documents\ViberDownloads\clipboard_image_25e107b4ca6b5ffc.jpg") {
-      document.getElementById('imageView').style.display = 'flex';
-    }
-
-    function hideImage2("C:\Users\Acer\Documents\ViberDownloads\0-02-05-c0ac2b35fa886948be08a3ced2dfb86f0aa6913cfcee7f1e927a11f71340a6e2_60515d05cdae1ceb.png") {
-      document.getElementById('imageView').style.display = 'flex';
-    }
+  
   </script>
 </body>
 </html>
+
+
