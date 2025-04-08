@@ -65,6 +65,7 @@
   <h1>Hypixel SkyBlock Progress</h1>
 
   <div class="player">
+    <h2 onclick="showImage1()
     <h2>Dani</h2>
     <p>Combat: XIII</p>
     <p>Farming: XX</p>
@@ -75,7 +76,7 @@
   </div>
 
   <div class="player">
-    <h2 onclick="showImage()">Slav</h2>
+    <h2 onclick="showImage2()">Slav</h2>
     <p>Combat: VIII</p>
     <p>Farming: VII</p>
     <p>Slayer: Revenant T2</p>
@@ -85,12 +86,12 @@
   </div>
 
   <div id="imageView">
-    <img src="https://i.ibb.co/pFDXwbg/image.png" alt="Slav Image">
-    <div id="backArrow" onclick="hideImage()">← Back</div>
+    <img src="" alt="Slav Image">
+    <div id="backArrow" onclick="hideImage1()">← Back</div>
   </div>
 
   <script>
-    function showImage() {
+    function showImage1("C:\Users\Acer\Documents\ViberDownloads\clipboard_image_25e107b4ca6b5ffc.jpg") {
       document.getElementById('imageView').style.display = 'flex';
     }
 
