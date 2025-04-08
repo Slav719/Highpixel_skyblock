@@ -2,17 +2,21 @@
 <html>
 <head>
   <title>SkyBlock Progress</title>
-  <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
+
+  <!-- Minecraft-style font (reliable one) -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: 'Minecraftia', sans-serif;
+      font-family: 'Press Start 2P', sans-serif;
       background-color: black;
       color: white;
       text-align: center;
     }
 
     .player {
-      width: 45%;
+      width: 90%;
+      max-width: 400px;
       display: inline-block;
       background-color: #222;
       margin: 10px;
@@ -22,15 +26,19 @@
 
     h1 {
       color: lime;
+      font-size: 24px;
+      margin: 20px 0;
     }
 
     h2 {
       color: yellow;
       cursor: pointer;
+      font-size: 18px;
     }
 
     p {
       margin: 5px;
+      font-size: 12px;
     }
 
     #imageView {
@@ -50,11 +58,12 @@
     #imageView img {
       max-width: 90%;
       max-height: 80vh;
+      border: 2px solid white;
     }
 
     #backArrow {
       color: lime;
-      font-size: 24px;
+      font-size: 18px;
       margin-top: 20px;
       cursor: pointer;
     }
@@ -90,7 +99,8 @@
 
   <script>
     function showImage() {
-      document.getElementById('imageView').style.display = 'flex';
+      const imageView = document.getElementById('imageView');
+      imageView.style.display = 'flex';
     }
 
     function hideImage() {
@@ -99,3 +109,4 @@
   </script>
 </body>
 </html>
+
