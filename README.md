@@ -91,12 +91,27 @@
   </div>
 
   <script>
-    function showImage1("C:\Users\Acer\Documents\ViberDownloads\clipboard_image_25e107b4ca6b5ffc.jpg") {
+    
+	function showImage1("C:\Users\Acer\Documents\ViberDownloads\clipboard_image_25e107b4ca6b5ffc.jpg") {
       document.getElementById('imageView').style.display = 'flex';
     }
 
-    function hideImage() {
+    function hideImage1() {
       document.getElementById('imageView').style.display = 'none';
+    }
+	 <div id="imageView">
+    <img src="" alt="Slav Image">
+    <div id="backArrow" onclick="hideImage1()">← Back</div>
+  </div>
+
+  <script>
+    
+	function showImage2("C:\Users\Acer\Documents\ViberDownloads\clipboard_image_25e107b4ca6b5ffc.jpg") {
+      document.getElementById('imageView').style.display = 'flex';
+    }
+
+    function hideImage2("C:\Users\Acer\Documents\ViberDownloads\0-02-05-c0ac2b35fa886948be08a3ced2dfb86f0aa6913cfcee7f1e927a11f71340a6e2_60515d05cdae1ceb.png") {
+      document.getElementById('imageView').style.display = 'flex';
     }
   </script>
 </body>
